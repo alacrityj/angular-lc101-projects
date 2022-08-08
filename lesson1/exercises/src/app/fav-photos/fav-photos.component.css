@@ -2,9 +2,8 @@ h3 {
    color: brown;
 }
 
-/* FIXME: fix photo dimensions to make them align properly   */
 img {
-   width: 400px;
+   width: 250px;
    margin: 15px;
 }
 
