@@ -2,8 +2,10 @@ h3 {
    color: brown;
 }
 
+/* FIXME: fix photo dimensions to make them align properly   */
 img {
-
+   width: 400px;
+   margin: 15px;
 }
 
 .photos {
