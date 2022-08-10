@@ -24,7 +24,11 @@ export class CandidatesComponent implements OnInit {
   }
 
   // Code the addToCrew function here:
-
+  addToCrew(crewMember: object) {
+    // FIXME: should only push if crewMember is not already in crew array!
+    this.crew.push(crewMember)
+  }
+  
 
   // BONUS: Code the changeMissionName function here:
 
